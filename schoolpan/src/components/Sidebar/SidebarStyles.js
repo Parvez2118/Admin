@@ -73,7 +73,8 @@ export const ItemContainer = styled.li`
 export const ItemWrapper = styled.div`
   display: flex;
   align-items: center;
-  color: #7c7788;
+  color: white;
+  font-size:18px;
 `;
 
 export const ItemName = styled.span`
@@ -89,7 +90,7 @@ export const SidebarContainer = styled.div`
   width: ${({ displaySidebar }) => (displaySidebar ? "15rem" : "5rem")};
   height: 100vh;
   padding: 0.75rem;
-  background: #f3f4f4;
+  background: #AF69EE;
   transition: width 350ms ease;
   border-right: 1px solid #d4d8dd;
   overflow-x: hidden;
